@@ -1,0 +1,63 @@
+# --------------------
+# Node.js dependencies
+# --------------------
+node_modules/
+
+# --------------------
+# Environment secrets
+# --------------------
+.env
+
+# --------------------
+# Hardhat build files
+# --------------------
+artifacts/
+cache/
+
+# --------------------
+# TypeChain generated types
+# --------------------
+typechain/
+typechain-types/
+
+# --------------------
+# Hardhat Ignition deployments (local)
+# --------------------
+ignition/deployments/
+
+# --------------------
+# Coverage reports
+# --------------------
+coverage/
+coverage.json
+
+# --------------------
+# Editor configs (optional)
+# --------------------
+.vscode/
+.idea/
+
+# --------------------
+# OS-specific files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Log files
+# --------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------
+# Optional: lock file if using alternative package managers
+# --------------------
+# package-lock.json
+
+# --------------------
+# Misc
+# --------------------
+dist/
+build/
