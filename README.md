@@ -52,6 +52,7 @@ Create a `.env` file in the root directory with your secrets:
 ```
 PRIVATE_KEY=your_private_key
 BSCSCAN_API_KEY=your_bscscan_api_key
+BSC_RPC_URL=https://bsc-dataseed.binance.org/
 ```
 
 Then deploy:
